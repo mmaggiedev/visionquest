@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "NB-Architekt";
+  src: url("./fonts/NBArchitekt/NB-Architekt-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "NB-Architekt";
+  src: url("./fonts/NBArchitekt/NB-Architekt-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "F37-Bolton";
+  src: url("./fonts/F37-Bolton/F37Bolton-Regular.otf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "F37-Bolton";
+  src: url("./fonts/F37-Bolton/F37Bolton-Bold.otf");
+  font-style: normal;
+  font-weight: bold;
+}
+/*# sourceMappingURL=typography.css.map */

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Spacecadet Vision Quest</title>
+    <link href="../asset/icon/sp-icon.png" rel="shortcut icon">
+    <link rel="stylesheet" href="../stylesheet/main.css" />
+    <link rel="stylesheet" href="../stylesheet/typography.css" />
+  <link rel="stylesheet" href="https://spacecadet.ventures/dispatch/stylesheet/spacecadet-modal.css" />
+        <link rel="stylesheet" href="https://spacecadet.ventures/ideas/wp-content/themes/ideas/stylesheet/typography.css" />
+        <style>
+            .branding-logo img{
+                width: 278px;
+            }
+        </style>
+</head>
+
+<body>
+    <header class="vq-hero-section container">
+        <div class="vq-hero-wrapper ">
+            <nav class="branding-wrapper flex-box">
+                <div class="branding-name branding-logo"><a href="/">
+                    <img src="../asset/img/spacecadet-text-logo.png" />
+                </a></div>
+                <div class="branding-icon">
+                    <img src="../asset/icon/sp-vision.svg" />
+                </div>
+            </nav>
+            <div class="hero-title">
+                <h1 class="title">
+                    <span class="light">Transformative tools to</span>
+                    <span class="bold">supercharge your startup.</span>
+                </h1>
+                <p class="subtitle">
+                    Join 10,000+ subscribers for updates on future drops.
+                </p>
+            </div>
+            <div class="subscribe-box flex-box">
+                <div class="subscribe-field col-6">
+                    <input id="head-regm" class="textfield" type="email" placeholder="Your email address" />
+                    <a class="subscribe-btn btn-subscribe" data-target="head">Subscribe</a>
+                    <p class="sub-error-msg">Please select at least one signup option</p>
+                </div>
+                <div class="subscribe-options col-35">
+                    <span class="group-label">Sign me up for:</span>
+                    <div class="option-group">
+                        <div class="option-item">
+                            <label class="option-label">Tools</label>
+                            <input id="subType1" class="checkbox subscribe-option" checked name="subscribe-option"
+                                type="checkbox" value="tools" />
+
+                            <span class="checkmark"></span>
+                        </div>
+                        <div class="option-item">
+                            <label class="option-label">Trends</label>
+                            <input id="subType2" class="checkbox subscribe-option" checked name="subscribe-option"
+                                type="checkbox" value="Trends" />
+
+                            <span class="checkmark"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="frame-wrapper">
+        <div class="frame-header-cover"></div>
+        <iframe id="notion-frame" class="vq-frame"
+            src="https://v1.embednotion.com/embed/48200926ca4f41e08c013181c962d035"></iframe>
+    </div>
+
+    <!--<div class="spacecadet-modal modal">-->
+    <!--    <div class="modal-content">-->
+    <!--        <a class="close-modal">-->
+    <!--            <img src="asset/icon/close.svg">-->
+    <!--        </a>-->
+    <!--        <iframe style="width: 100%; height:100%; border: none;" id="popup-frame"-->
+    <!--            src="https://spacecadet.ventures/ideas/" title="30+ INNOVATIVE IDEAS PER WEEK"></iframe>-->
+    <!--    </div>-->
+    <!--</div>-->
+    
+            <div class="spacecadet-modal modal">
+        <div class="modal-content modal-hide">
+                       <a class="close-modal">
+                <img src="../asset/icon/close.svg">
+            </a>
+            <div class="modal-bg" style="background-image: url('https://spacecadet.ventures/ideas/wp-content/themes/ideas/asset/img/modal-bg.jpg');"></div>
+            <div class="overlay-mask"></div>
+            <a href="/" class="spacecadet-icon">
+                <img src="http://spacecadet.ventures/dispatch/asset/icon/spacecadet-logo.svg">
+                <p class="sp-brand-name">
+                    <span class="brand-title">SPACECADET</span>
+                    <span class="year">DISPATCH</span>
+                </p>
+            </a>
+            <div class="modal-text">
+                <h1 class="head-title" style="font-family: 'NB-Architekt', sans-serif;">Supercharge your startup.
+                </h1>
+                <!--<p class="head-subtitle">BY SPACECADET</p>-->
+                <p class="desc" style="max-width: unset">Join 25,000+ subscribers for updates on future drops.</p>
+        <div id="mc_embed_signup" class="spacecadet-signup-form">
+                        <div class="sp-subscribe-box">
+                            <div class="mc-field-group input-wrapper">
+                                <input id="popup-regm" type="email" value="" name="regm" class="required email"
+                                    placeholder="Email Address">
+                            </div>
+
+                            <button type="submit" value="Subscribe" name="subscribe" data-target="popup" id="btnDirectSubscribe"
+                                class="button btn-subscribe btn-primary">Subscribe</button>
+                 
+
+                </div>
+                 <div class="subscribe-options subscribe-in-modal">
+                    <span class="group-label">Sign me up for:</span>
+                    <div class="option-group">
+                        <div class="option-item">
+                            <label class="option-label">Tools</label>
+                            <input id="subType1" class="checkbox subscribe-option" checked name="subscribe-option"
+                                type="checkbox" value="tools" />
+
+                            <span class="checkmark"></span>
+                        </div>
+                        <div class="option-item">
+                            <label class="option-label">Trends</label>
+                            <input id="subType2" class="checkbox subscribe-option" checked name="subscribe-option"
+                                type="checkbox" value="Trends" />
+
+                            <span class="checkmark"></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--<p class="direct-sub-error _hide">Please enter a valid email!</p>-->
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="../js/main.js"></script>
+<script src="../plugins/jquery.exitintent.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        sessionStorage.setItem('firstVisit', '1');
+        $.exitIntent('enable');
+        $(document).bind('exitintent', function () {
+            if (sessionStorage.getItem('firstVisit') === "1") {
+                $('.spacecadet-modal').addClass('show');
+                sessionStorage.setItem('firstVisit', '0');
+            }
+        });
+
+        $('.btn-subscribe').click(function () {
+             if($(this).attr("data-target") == "head"){
+                email = $("#head-regm").val();
+             }else {
+                 email = $("#popup-regm").val();
+             }
+       
+  
+            var sub_type = "3";
+            if ($('#subType1').is(":checked") && !$('#subType2').is(":checked")) {
+                $('.sub-error-msg').removeClass("show");
+               sub_type = "1";
+            }else if (!$('#subType1').is(":checked") && $('#subType2').is(":checked")){
+                $('.sub-error-msg').removeClass("show");
+                sub_type = "2";
+            }else if(!$('#subType1').is(":checked") && !$('#subType2').is(":checked")){
+                $('.sub-error-msg').addClass("show");
+                return;
+            }
+            // var email = $("#mainEmailInput").val();
+             if(email != null && email != undefined && email != ''){
+                   document.location.href = 'https://spacecadet.ventures/ideas?action=register&type=' + sub_type + '&regm=' + email;
+            }
+        });
+
+    });
+</script>
+
+</html>
